@@ -1,0 +1,141 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "test_size": 53,
+  "train_size": 157,
+  "accuracy": 0.5660377358490566,
+  "macro_precision": 0.5818027210884352,
+  "macro_recall": 0.5637755102040816,
+  "macro_f1": 0.5673469387755101,
+  "labels": [
+    "Cleanliness",
+    "Electricity",
+    "Food/Mess",
+    "Internet/Wi-Fi",
+    "Maintenance",
+    "Other",
+    "Water Supply"
+  ],
+  "classification_report": {
+    "Cleanliness": {
+      "precision": 0.5714285714285714,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5714285714285714,
+      "support": 7.0
+    },
+    "Electricity": {
+      "precision": 0.3333333333333333,
+      "recall": 0.42857142857142855,
+      "f1-score": 0.375,
+      "support": 7.0
+    },
+    "Food/Mess": {
+      "precision": 0.7142857142857143,
+      "recall": 0.625,
+      "f1-score": 0.6666666666666666,
+      "support": 8.0
+    },
+    "Internet/Wi-Fi": {
+      "precision": 0.625,
+      "recall": 0.625,
+      "f1-score": 0.625,
+      "support": 8.0
+    },
+    "Maintenance": {
+      "precision": 0.42857142857142855,
+      "recall": 0.375,
+      "f1-score": 0.4,
+      "support": 8.0
+    },
+    "Other": {
+      "precision": 0.8,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.6666666666666666,
+      "support": 7.0
+    },
+    "Water Supply": {
+      "precision": 0.6,
+      "recall": 0.75,
+      "f1-score": 0.6666666666666666,
+      "support": 8.0
+    },
+    "accuracy": 0.5660377358490566,
+    "macro avg": {
+      "precision": 0.5818027210884352,
+      "recall": 0.5637755102040816,
+      "f1-score": 0.5673469387755101,
+      "support": 53.0
+    },
+    "weighted avg": {
+      "precision": 0.5825696316262354,
+      "recall": 0.5660377358490566,
+      "f1-score": 0.5690251572327043,
+      "support": 53.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      4,
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      3,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      5,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      1,
+      5,
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      3,
+      0,
+      0,
+      3,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      1,
+      1,
+      4,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0,
+      6
+    ]
+  ],
+  "note": "Metrics are from a synthetic starter dataset; not a real-world performance estimate."
+}
